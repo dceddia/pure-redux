@@ -1,1 +1,1 @@
-This is the 'after' code for the lesson [How to Test Plain Action Creators](https://daveceddia.podia.com/courses/pure-redux/54082-testing/152898-how-to-test-plain-action-creators), part of [Pure Redux](https://daveceddia.com/pure-redux/).\n
+This is the 'after' code for the lesson [How to Test Plain Action Creators](https://daveceddia.podia.com/courses/pure-redux/54082-testing/152898-how-to-test-plain-action-creators), part of [Pure Redux](https://daveceddia.com/pure-redux/).

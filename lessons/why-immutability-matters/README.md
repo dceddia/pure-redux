@@ -1,1 +1,1 @@
-This is the code for the lesson [Why Immutability Matters to Redux](https://daveceddia.podia.com/courses/pure-redux/54080-immutability-in-practice/152880-why-immutability-matters-to-redux), part of [Pure Redux](https://daveceddia.com/pure-redux/).\n
+This is the code for the lesson [Why Immutability Matters to Redux](https://daveceddia.podia.com/courses/pure-redux/54080-immutability-in-practice/152880-why-immutability-matters-to-redux), part of [Pure Redux](https://daveceddia.com/pure-redux/).

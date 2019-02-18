@@ -1,1 +1,1 @@
-This is the 'before' code for the lesson [Make API calls with redux-thunk](https://daveceddia.podia.com/courses/pure-redux/54081-useful-extras/152896-make-api-calls-with-redux-thunk), part of [Pure Redux](https://daveceddia.com/pure-redux/).\n
+This is the 'before' code for the lesson [Make API calls with redux-thunk](https://daveceddia.podia.com/courses/pure-redux/54081-useful-extras/152896-make-api-calls-with-redux-thunk), part of [Pure Redux](https://daveceddia.com/pure-redux/).
