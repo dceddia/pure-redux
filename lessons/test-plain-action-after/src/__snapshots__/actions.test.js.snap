@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addPoints 1`] = `
+Object {
+  "house": Object {
+    "id": 7,
+  },
+  "points": 50,
+  "type": "ADD_POINTS",
+}
+`;

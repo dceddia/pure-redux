@@ -1,0 +1,1 @@
+This is the 'after' code for the lesson [How to Immutably Update Arrays](https://daveceddia.podia.com/courses/pure-redux/54080-immutability-in-practice/152885-how-to-immutably-update-arrays), part of [Pure Redux](https://daveceddia.com/pure-redux/).\n

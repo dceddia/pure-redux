@@ -1,0 +1,1 @@
+This is the 'after' code for the lesson [Start with a Plain React App](https://daveceddia.podia.com/courses/pure-redux/53990-the-basics/152866-start-with-a-plain-react-app), part of [Pure Redux](https://daveceddia.com/pure-redux/).\n

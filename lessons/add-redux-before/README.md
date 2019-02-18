@@ -1,0 +1,1 @@
+This is the 'before' code for the lesson [Add Redux to the React App](https://daveceddia.podia.com/courses/pure-redux/53990-the-basics/152878-add-redux-to-the-react-app), part of [Pure Redux](https://daveceddia.com/pure-redux/).\n

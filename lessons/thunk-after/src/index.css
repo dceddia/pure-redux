@@ -1,0 +1,52 @@
+body {
+  margin: 8px;
+  font-family: 'Open Sans', Helvetica, arial, sans-serif;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* a reddit post */
+li {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* post title */
+h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* score */
+li > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  flex-basis: 50px;
+  font-size: 18px;
+  margin-right: 10px;
+  opacity: 0.5;
+  font-weight: 200;
+}
+
+/* content (title + comments) */
+li > div {
+  flex: 1;
+}
+
+/* comments */
+h2 + div {
+  font-size: 14px;
+}

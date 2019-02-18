@@ -1,0 +1,62 @@
+* {
+  font-family: 'IBM Plex Sans', 'Helvetica', sans-serif;
+}
+body {
+  margin-top: 15px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 360px;
+}
+main > div {
+  margin: 10px;
+  text-align: center;
+}
+img {
+  width: 150px;
+}
+img + div {
+  position: relative;
+  font-size: 0.9em;
+  top: -10px;
+}
+
+.selected {
+  position: relative;
+}
+.Gryffindor.selected::before,
+.Ravenclaw.selected::before,
+.Hufflepuff.selected::before,
+.Slytherin.selected::before {
+  content: '🎩';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Gryffindor.selected::before {
+  background: #ffe4e3;
+  box-shadow: 0 0 8px #ad1111;
+}
+.Ravenclaw.selected::before {
+  background: #dee0ff;
+  box-shadow: 0 0 8px #1e099b;
+}
+.Hufflepuff.selected::before {
+  background: #fff5ce;
+  box-shadow: 0 0 8px #dfaa26;
+}
+.Slytherin.selected::before {
+  background: #dff7e2;
+  box-shadow: 0 0 8px #168222;
+}

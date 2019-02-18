@@ -1,0 +1,26 @@
+* {
+  font-family: 'IBM Plex Sans', 'Helvetica', sans-serif;
+}
+body {
+  margin-top: 15px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 360px;
+}
+main > div {
+  margin: 10px;
+  text-align: center;
+}
+img {
+  width: 150px;
+}
+img + div {
+  position: relative;
+  font-size: 0.9em;
+  top: -10px;
+}

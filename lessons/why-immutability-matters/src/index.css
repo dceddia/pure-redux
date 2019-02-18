@@ -1,0 +1,44 @@
+* {
+  font-family: 'IBM Plex Sans';
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  margin-top: 30px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 25px;
+  padding: 5px;
+  border: 1px solid #9e9e9e;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #a225c1;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  margin-top: 0.5em;
+}
+button[disabled] {
+  opacity: 0.5;
+}
+
+ul {
+  font-size: 1.5em;
+  margin: 0;
+}

@@ -1,0 +1,1 @@
+This is the code for the lesson [Easier debugging with Redux DevTools](https://daveceddia.podia.com/courses/pure-redux/54081-useful-extras/152892-easier-debugging-with-redux-devtools), part of [Pure Redux](https://daveceddia.com/pure-redux/).\n
