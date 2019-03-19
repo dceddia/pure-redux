@@ -1,0 +1,52 @@
+{
+  "courses": [
+    {
+      "name": "Woodworking 101",
+      "price": 49,
+      "id": 1
+    },
+    {
+      "name": "Woodworking 201",
+      "price": 199,
+      "id": 2
+    },
+    {
+      "name": "Build Your Own House",
+      "price": 299,
+      "id": 3
+    }
+  ],
+  "lessons": [
+    {
+      "name": "Choosing good lumber",
+      "courseId": 1,
+      "id": 1,
+      "markdown": "Buy the straightest 2x4s you can find. Take your time picking through the pile. It'll save you time later!"
+    },
+    {
+      "name": "Which tools to buy",
+      "courseId": 1,
+      "id": 2,
+      "markdown": "* Table saw\n* Impact driver\n* Circular saw\n* Miter saw"
+    },
+    {
+      "name": "Safety",
+      "courseId": 1,
+      "id": 3,
+      "markdown": "The secret to safe woodworking is to make sure to keep your hands out of the-- MICROJIG[!](https://www.youtube.com/watch?v=mvO6zaIUO18)"
+    },
+    {
+      "name": "How to use a miter saw",
+      "courseId": 1,
+      "id": 4,
+      "markdown": "1. Place the wood.\n2. Clamp it down.\n3. Turn on the saw and cut it."
+    },
+    {
+      "name": "First project: basic workbench",
+      "courseId": 1,
+      "id": 5,
+      "markdown": "1. Cut some pieces of wood.\n2. Glue a few of them togeher.\n3. Make the rest of the workbench.\n\n![](https://daveceddia.com/images/amazing-workbench.jpg)"
+    }
+  ],
+  "users": []
+}

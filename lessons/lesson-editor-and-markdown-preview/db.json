@@ -1,0 +1,49 @@
+{
+  "courses": [
+    {
+      "name": "Woodworking 101",
+      "price": 49,
+      "id": 1
+    },
+    {
+      "name": "Woodworking 201",
+      "price": 199,
+      "id": 2
+    },
+    {
+      "name": "Build Your Own House",
+      "price": 299,
+      "id": 3
+    }
+  ],
+  "lessons": [
+    {
+      "name": "Choosing good lumber",
+      "courseId": 1,
+      "id": 1
+    },
+    {
+      "name": "Which tools to buy",
+      "courseId": 1,
+      "id": 2,
+      "markdown": "Changes!! *yay*"
+    },
+    {
+      "name": "Safety",
+      "courseId": 1,
+      "id": 3
+    },
+    {
+      "name": "How to use a miter saw",
+      "courseId": 1,
+      "id": 4,
+      "markdown": "try this. saves faster."
+    },
+    {
+      "name": "First project: basic workbench",
+      "courseId": 1,
+      "id": 5,
+      "markdown": "# h1\n## h2\n### h3\n\nThis course is awesome.\n\n*italics*   **bold**\n\n"
+    }
+  ]
+}

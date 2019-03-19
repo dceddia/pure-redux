@@ -1,0 +1,52 @@
+.NewCourse h1 {
+  font-size: 28px;
+  text-align: center;
+}
+.NewCourse form {
+  max-width: 600px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.NewCourse form input {
+  width: 100%;
+  border: 1px solid #c244d8;
+  outline: none;
+  transition: box-shadow 0.2s;
+  margin-bottom: 20px;
+}
+.NewCourse form input:focus {
+  box-shadow: 0 0 3px #c244d8;
+}
+.NewCourse form label {
+  margin-bottom: 0.6em;
+  display: block;
+}
+.NewCourse form button {
+  color: #fff;
+  background-color: #c244d8;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 2px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-bottom: 3px solid #673ab7;
+  transition: all 0.2s;
+}
+.NewCourse form button:focus {
+  outline: none;
+  box-shadow: 0 0 4px #673ab7;
+}
+.NewCourse form button:active {
+  border-bottom: none;
+  margin-top: 2px;
+  box-shadow: 0 2px 0 #673ab7 inset;
+}
+.NewCourse form button:disabled {
+  background-color: #dec5e2;
+  border-bottom: 2px solid #f0e9fd;
+}

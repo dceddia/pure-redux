@@ -1,0 +1,71 @@
+/*
+LoginPage styles
+*/
+.LoginPage * {
+  font-family: 'IBM Plex Sans';
+}
+.LoginPage {
+  max-width: 250px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.LoginPage form {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  margin: 0;
+}
+.LoginPage form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+.LoginPage form input {
+  padding: 8px 6px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+}
+.LoginPage form input:focus {
+  outline: none;
+  border: 1px solid #5d2faf;
+}
+.LoginPage form button {
+  background: #5d2faf;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px #5d2faf;
+  transition: box-shadow, background-color 0.12s;
+  outline: none;
+  margin-bottom: 10px;
+}
+.LoginPage form button + button {
+  opacity: 0.8;
+  font-size: 14px;
+  padding: 7px;
+  margin: initial 10px;
+}
+.LoginPage form button:hover {
+  background-color: #753fd6;
+  cursor: pointer;
+}
+.LoginPage form button[disabled] {
+  opacity: 0.4;
+}
+.LoginPage form button:focus {
+  box-shadow: 0 1px 8px #5d2faf;
+}
+.LoginPage form button:active {
+  transform: scale(0.98);
+}
+.LoginPage .error {
+  background: #ffebee;
+  color: #c62828;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "name": "Intro to Woodworking",
+      "price": 99,
+      "id": 1
+    },
+    {
+      "name": "Advanced Woodworking",
+      "price": 99,
+      "id": 2
+    }
+  ]
+}

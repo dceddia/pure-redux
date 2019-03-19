@@ -1,1 +1,1 @@
-This is the 'after' code for the lesson [How to Test a Reducer](https://daveceddia.podia.com/courses/pure-redux/54082-testing/152894-how-to-test-a-reducer), part of [Pure Redux](https://daveceddia.com/pure-redux/).
+This is the 'after' code for the lesson How to Test a Reducer, part of [Pure Redux](https://daveceddia.com/pure-redux/).

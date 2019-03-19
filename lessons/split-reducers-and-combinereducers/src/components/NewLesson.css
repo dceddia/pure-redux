@@ -1,0 +1,35 @@
+.add-lesson-button {
+  background: #fff;
+  border: 1px dashed #bb9eec;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.add-lesson-button.editing {
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 0 4px #bb9eec;
+  border: 1px dashed #673ab7;
+}
+.add-lesson-button .lesson-plus {
+  width: 25px;
+}
+.add-lesson-button input {
+  padding: 3px;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+button.add-lesson-button:focus,
+button.add-lesson-button:hover {
+  outline: none;
+  background: #f7f2ff;
+  cursor: pointer;
+}

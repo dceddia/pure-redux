@@ -1,0 +1,14 @@
+.SalesPage {
+  margin: 20px;
+  text-align: center;
+}
+.SalesPage button {
+  margin-top: 1em;
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-size: 25px;
+  color: #222;
+  background: #ffc107;
+  border: none;
+  padding: 10px 18px;
+}

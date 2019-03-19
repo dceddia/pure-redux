@@ -1,0 +1,59 @@
+.CreateCourse {
+  height: 100%;
+  padding-top: 80px;
+  text-align: center;
+}
+.CreateCourse h1 {
+  margin-top: 0;
+}
+.CreateCourse {
+  background-image: url(../images/geometry2.png);
+}
+.CreateCourse form {
+  max-width: 600px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.CreateCourse form input {
+  width: 100%;
+  border: 1px solid #c244d8;
+  outline: none;
+  transition: box-shadow 0.2s;
+  margin-bottom: 20px;
+}
+.CreateCourse form input:focus {
+  box-shadow: 0 0 3px #c244d8;
+}
+.CreateCourse form label {
+  margin-bottom: 0.6em;
+  display: block;
+}
+.CreateCourse form button {
+  color: #fff;
+  background-color: #c244d8;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 2px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-bottom: 3px solid #673ab7;
+  transition: all 0.2s;
+}
+.createCourse-form button:focus {
+  outline: none;
+  box-shadow: 0 0 4px #673ab7;
+}
+.createCourse-form button:active {
+  border-bottom: none;
+  margin-top: 2px;
+  box-shadow: 0 2px 0 #673ab7 inset;
+}
+.createCourse-form button:disabled {
+  background-color: #dec5e2;
+  border-bottom: 2px solid #f0e9fd;
+}
