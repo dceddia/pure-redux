@@ -1,0 +1,37 @@
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+div {
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+button {
+  border: none;
+  background: rebeccapurple;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+button + button {
+  background: #dedede;
+  color: #222;
+  font-size: 16px;
+}
