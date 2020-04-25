@@ -17,6 +17,7 @@ const reducer = produce((draft, action) => {
       draft.error = null;
       return;
     case ADD_COURSE_SUCCESS:
+      draft.loading = false;
       draft.courses.push(action.payload);
       return;
     case ADD_COURSE_ERROR:
